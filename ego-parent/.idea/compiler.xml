@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ego-cart" />
+        <module name="ego-commons" />
+        <module name="ego-item" />
+        <module name="ego-manage" />
+        <module name="ego-order" />
+        <module name="ego-passport" />
+        <module name="ego-pojo" />
+        <module name="ego-portal" />
+        <module name="ego-redis" />
+        <module name="ego-search" />
+        <module name="ego-service" />
+        <module name="ego-service-impl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ego-cart" target="1.5" />
+      <module name="ego-commons" target="1.5" />
+      <module name="ego-item" target="1.5" />
+      <module name="ego-manage" target="1.5" />
+      <module name="ego-order" target="1.5" />
+      <module name="ego-parent" target="1.5" />
+      <module name="ego-passport" target="1.5" />
+      <module name="ego-pojo" target="1.5" />
+      <module name="ego-portal" target="1.5" />
+      <module name="ego-redis" target="1.5" />
+      <module name="ego-search" target="1.5" />
+      <module name="ego-service" target="1.5" />
+      <module name="ego-service-impl" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
